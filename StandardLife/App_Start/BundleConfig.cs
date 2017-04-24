@@ -1,5 +1,4 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
 namespace StandardLife
 {
@@ -21,10 +20,18 @@ namespace StandardLife
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
+                      "~/Scripts/plugins.js",
+                      "~/Scripts/menu.js",
+                      "~/Scripts/custom.js",
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/animate.css",
+                      "~/Content/owl.carousel.css",
+                      "~/Content/owl.theme.css",
+                      "~/Content/ionicons.min.css",
+                      "~/Content/style.css",
                       "~/Content/site.css"));
         }
     }

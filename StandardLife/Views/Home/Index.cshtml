@@ -1,31 +1,575 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
+﻿<div class="main app form" id="main">
+    <!-- Main Section-->
+    <div class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    @*<img class="img-responsive wow fadeInUp" data-wow-delay="0.1s" src="~/Content/Images/app-signup.png" alt="App" />*@
+                </div>
+                <div class="col-md-7">
+                    <div class="hero-content">
+                        <h1 class="wow fadeInUp" data-wow-delay="0.1s">Pensions are different. <br /> So are we. So are you.</h1>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                            If you believe that all workplace pensions are the same and that they all lead to the same result, think again. A different approach could unlock the real potential of your workplace pension.
+                        </p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                            Contact our team to find out more
+                        </p>
+                        <a href="#" class="btn btn-action wow fadeInUp">Request call back</a>
+                        @*<div class="sub-form wow fadeInUp" data-wow-delay="0.3s">
+                            <form class="subscribe-form wow zoomIn" action="assets/php/subscribe.php" method="post" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
+                                <input class="mail" type="email" name="email" placeholder="Join the wait list" autocomplete="off"><input class="submit-button" type="submit" value="Subscribe">
+                            </form>
+                        </div>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+    <!-- Client Section -->
+    <div class="client-section">
+        <div class="container text-center">
+            <div class="clients owl-carousel owl-theme">
+                <div class="single">
+                    <p class="percentage">75% of callers rated out of retirement experts</p>
+                    <p id="ten">10/10</p>
+                    <p id="rating">9.5 average</p>
+                </div>
+                <div class="single">
+                    <p id="sixteen">+16 YEARS</p>
+                    <p id="experience">of experience in providing</p>
+                    <p id="drawdown">drawdown solutions</p>
+                </div>
+                <div class="single">
+                    <p id="seventy">+77,000</p>
+                    <p id="cust">CUSTOMERS IN DRAWDOWN</p>
+                    <p id="weare">We are one of the largest drawdown</p>
+                    <p id="providers">providers in the UK</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+
+    <div class="pitch text-center">
+        <div class="container">
+            <div class="pitch-intro">
+                <h1 class="wow fadeInDown" data-wow-delay="0.2s">Why Choose Standard Life ?</h1>
+                <p class="wow fadeInDown" data-wow-delay="0.2s">
+                    You’re navigating an evolving pensions landscape. Regulations are changing. Demands are growing. Expectations are ever increasing. <br />
+                    <br />
+                    You want to do what’s best for your company and for your people by supporting them into retirement. <br />
+                    <br />
+                    But can you take out cost and still offer a world class reward package to attract the best in your sector? <br />
+                    <br />
+                    Yes you can.<br />
+                    <br />
+                    Standard Life can deliver both integrated solutions and customisation at the same time, helping you achieve operational efficiency without compromising on quality or long term service experience.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
+                    <div class="pitch-icon">
+                        <i class="ion-android-arrow-dropup-circle"></i>
+                    </div>
+                    <div class="pitch-content">
+                        <h1>Integrated Solutions</h1>
+                        <p>
+                            We believe we’re uniquely positioned in the market to deliver customised integrated solutions. From our master trust schemes and targeted communications, to our digital tools, online support and financial advice, we provide full support to both you and your people.
+                        </p>
+                        <p><a href="#">Find out more</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
+                    <div class="pitch-icon">
+                        <i class="ion-cube"></i>
+                    </div>
+                    <div class="pitch-content">
+                        <h1>Customisation</h1>
+                        <p>
+                            We get to know you better so you get exactly what your business needs, and its sustainable in the long term. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
+                    <div class="pitch-icon">
+                        <i class="ion-android-notifications"></i>
+                    </div>
+                    <div class="pitch-content">
+                        <h1>Expertise</h1>
+                        <p>
+                            We specialise in looking after large companies with complex workforce needs, like yours.
+                            Our solutions bring together the very best people, products and technology in market. We can provide you with award winning support and guidance every step of the way.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+
+    <div class="app-features text-center">
+        <div class="container">
+            <h1 class="wow fadeInDown" data-wow-delay="0.1s">10 Benefits of an Integrated Solution</h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">
+                There are ten key benefits for you to consider when looking at an integrated pension solution:
+            </p>
+            <div class="row">
+                <div class="col-md-4 features-left">
+                    <div class="row">
+                        <div class="col-md-12 wow fadeInDown" data-wow-delay="0.2s">
+                            <div class="icon">
+                                <i class="ion-xbox"></i>
+                            </div>
+                            <div class="feature-single">
+                                <h1>1 One point of contact</h1>
+                                <p>
+                                    Your Client Relationship Director will coordinate all the aspects of your reward package and will act as your direct link to our experts across the business.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 wow fadeInDown" data-wow-delay="0.3s">
+                            <div class="icon">
+                                <i class="ion-steam"></i>
+                            </div>
+                            <div class="feature-single">
+                                <h1>3 Reduced risks</h1>
+                                <p>
+                                    Increased visibility, transparency and reliability with no need to integrate multiple external interfaces reducing the risk of errors significantly.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 wow fadeInDown" data-wow-delay="0.4s">
+                            <div class="icon">
+                                <i class="ion-social-instagram-outline"></i>
+                            </div>
+                            <div class="feature-single">
+                                <h1>5 Strong data governance </h1>
+                                <p>
+                                    Through exploration of your scheme’s data and trends, our tools will support decision making and propose the ‘next best actions’ to take.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 wow fadeInDown" data-wow-delay="0.4s">
+                            <div class="icon">
+                                <i class="ion-social-instagram-outline"></i>
+                            </div>
+                            <div class="feature-single">
+                                <h1>7. Consistent message</h1>
+                                <p>
+                                    Our Communications Specialists use data analytics, demographic segmentation and digital design to ensure that we send out the right messages to the right people at the right time.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 wow fadeInDown" data-wow-delay="0.4s">
+                            <div class="icon">
+                                <i class="ion-social-instagram-outline"></i>
+                            </div>
+                            <div class="feature-single">
+                                <h1>9. Enhanced Experience</h1>
+                                <p>
+                                    An end-to-end journey is managed entirely by our platform. Our road map is designed based on your individual company needs and feedback.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 wow fadeInDown" data-wow-delay="0.5s">
+                    <img class="img-responsive" src="~/Content/Images/iphone.png" alt="App" />
+                </div>
+
+                <div class="col-md-4 features-left">
+                    <div class="row">
+                        <div class="col-md-12 wow fadeInDown" data-wow-delay="0.6s">
+                            <div class="icon">
+                                <i class="ion-social-html5-outline"></i>
+                            </div>
+                            <div class="feature-single">
+                                <h1>2 Integrated view</h1>
+                                <p>
+                                    Storing all information in one place, providing a complete overview of your reward strategy and its performance so you can identify opportunities easily.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 wow fadeInDown" data-wow-delay="0.7s">
+                            <div class="icon">
+                                <i class="ion-social-github"></i>
+                            </div>
+                            <div class="feature-single">
+                                <h1>4 Dynamic management</h1>
+                                <p>
+                                    You will be delivered real time management information to help inform and enhance decision making and direction.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 wow fadeInDown" data-wow-delay="0.8s">
+                            <div class="icon">
+                                <i class="ion-social-dropbox"></i>
+                            </div>
+                            <div class="feature-single">
+                                <h1>6 Less work, more impact</h1>
+                                <p>
+                                    Direct interfaces with other systems such as payroll, HR and your company intranet, enable us to deliver an intuitive and efficient solution.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 wow fadeInDown" data-wow-delay="0.8s">
+                            <div class="icon">
+                                <i class="ion-social-dropbox"></i>
+                            </div>
+                            <div class="feature-single">
+                                <h1>8. Value Attribution</h1>
+                                <p>
+                                    Increases the perceived value of employee benefits by offering members a holistic view of their total reward package.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 wow fadeInDown" data-wow-delay="0.8s">
+                            <div class="icon">
+                                <i class="ion-social-dropbox"></i>
+                            </div>
+                            <div class="feature-single">
+                                <h1>10. Spend Control</h1>
+                                <p>
+                                    Having all in one place reduces the need for external support and therefore reduces the need to pay extra fees and charges.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+
+
+    <div class="feature-sub">
+        <div class="container">
+            <div class="sub-inner">
+                <h1 class="wow fadeInUp">For more information on our fully integrated solutions, download our infographic.</h1>
+                <a href="#" class="btn btn-action wow fadeInUp">Download</a>
+            </div>
+        </div>
     </div>
-</div>
+
+
+    @*<div class="split-features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 nopadding">
+                    <div class="split-image">
+                        <img class="img-responsive wow fadeIn" src="assets/images/app_image.png" alt="Image" />
+                    </div>
+                </div>
+
+                <div class="col-md-6 nopadding">
+                    <div class="split-content">
+                        <h1 class="wow fadeInUp">Some cool features and details goes here</h1>
+                        <p class="wow fadeInUp">
+                            This section is especially designed to meet the needs of templates other than app. Though you can use it for
+                            app landing pages, I don't think you'll need it that much.
+                        </p>
+                        <ul class="wow fadeInUp">
+                            <li>Veres in thi youtrt hyeru likert uoiund.</li>
+                            <li>Aenean dictum pharetra nibh, sodales luctus felis.</li>
+                            <li>Enim ad minim veniam, quis nostrud exercitation.</li>
+                            <li>Heya youl keth istem platev much</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+
+    @*<div id="review-section" class="review-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="reviews owl-carousel owl-theme">
+                        <div class="review-single">
+                            <img class="img-circle" src="assets/images/icon.png" alt="Client Testimonoal" />
+                            <div class="review-text wow fadeInDown" data-wow-delay="0.2s">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
+                                <h3>- Neil Young</h3>
+                                <h3>Vice President Primal Inc</h3>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                            </div>
+                        </div>
+                        <div class="review-single">
+                            <img class="img-circle" src="assets/images/icon.png" alt="Client Testimonoal" />
+                            <div class="review-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
+                                <h3>- Kate Abbot</h3>
+                                <h3>President Proton LLC</h3>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-ios-star-half"></i>
+                            </div>
+                        </div>
+                        <div class="review-single">
+                            <img class="img-circle" src="assets/images/icon.png" alt="Client Testimonoal" />
+                            <div class="review-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
+                                <h3>- Alice</h3>
+                                <h3>CEO Marga Holdings</h3>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-ios-star-half"></i>
+                            </div>
+                        </div>
+                        <div class="review-single">
+                            <img class="img-circle" src="assets/images/icon.png" alt="Client Testimonoal" />
+                            <div class="review-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
+                                <h3>- Robert Hammer</h3>
+                                <h3>Chairman Hammer Corp</h3>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                            </div>
+                        </div>
+                        <div class="review-single">
+                            <img class="img-circle" src="assets/images/icon.png" alt="Client Testimonoal" />
+                            <div class="review-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis quis tellus ac vestibulum.  Etiam fermentum nisl ac venenatis rhoncus.</p>
+                                <h3>- Rita Valentine</h3>
+                                <h3>Primal Inc</h3>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-star"></i>
+                                <i class="ion ion-ios-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+    <div id="pricing" class="pricing-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    @*<div class="pricing-intro">
+                        <h1 class="wow fadeInDown" data-wow-delay="0s">Our Pricing Plans.</h1>
+                        <p class="wow fadeInDown" data-wow-delay="0.2s">
+                            Our plans are designed to meet the requirements of both beginners <br class="hidden-xs"> and players.
+                            Get the right plan that suits you.
+                        </p>
+                    </div>*@
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="table-left wow fadeInDown" data-wow-delay="0.4s">
+                                <div class="icon">
+                                    <img src="~/Content/Images/Logos/pricing1.png" alt="Icon" />
+                                </div>
+                                <div class="pricing-details">
+                                    <h2>Industry benchmarking</h2>
+                                    <p>
+                                        Do other employers offer more than you? Find out how competitive your pension benefit really is.
+                                    </p>
+                                    <button class="btn btn-primary btn-action btn-fill" type="button">Download</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="table-right table-center wow fadeInDown" data-wow-delay="0.6s">
+                                <div class="icon">
+                                    <img src="~/Content/Images/Logos/pricing2.png" alt="Icon" />
+                                </div>
+                                <div class="pricing-details">
+                                    <h2>Thought Leadership</h2>
+                                    <p>
+                                        Workplace pensions are one of your biggest benefit costs. Find out how much employees really value them from our recent research.
+                                    </p>
+                                    <button class="btn btn-primary btn-action btn-fill" type="button">Download</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="table-right wow fadeInDown" data-wow-delay="0.6s">
+                                <div class="icon">
+                                    <img src="~/Content/Images/Logos/pricing3.png" alt="Icon" />
+                                </div>
+                                <div class="pricing-details">
+                                    <h2>Talk with the Team</h2>
+                                    <p>
+                                        Contact a member of our team to find out more about our workplace pension solution
+                                    </p>
+                                    <a href="mailto:example@pragward.co.uk" class="btn btn-primary btn-action btn-fill" type="button">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="pricing" class="pricing-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="pricing-intro">
+                        <h1 class="wow fadeInDown" data-wow-delay="0s">Contact Us</h1>
+                        <p class="wow fadeInDown" data-wow-delay="0.2s">
+                            If you want to discuss with our team about a customised fully integrated solutions, they will be happy to assist you
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="table-left wow fadeInDown" data-wow-delay="0.4s">
+                                <div class="photo">
+                                    <img src="~/Content/Images/TeamPhotos/Martin.png" alt="Martin Trenchard"/>
+                                </div>
+                                <div class="pricing-details">
+                                    <h2 class="name">Martin Trenchard</h2>
+                                    <h3>Head of Corporate Relationships</h3>
+                                    <p>
+                                        <a href="mailto:martin.trenchard@standardlife.com">Email</a><br/>
+                                        0207 868 5832
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="table-left wow fadeInDown" data-wow-delay="0.4s">
+                                <div class="photo">
+                                    <img src="~/Content/Images/TeamPhotos/Simon.png" alt="Martin Trenchard" />
+                                </div>
+                                <div class="pricing-details">
+                                    <h2 class="name">Simon Davies</h2>
+                                    <h3>Corporate Relations</h3>
+                                    <p>
+                                        <a href="mailto:simon.davies@standardlife.com">Email</a><br />
+                                        020 7872 4192
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="table-left wow fadeInDown" data-wow-delay="0.4s">
+                                <div class="photo">
+                                    <img src="~/Content/Images/TeamPhotos/Gordon.png" alt="Martin Trenchard" />
+                                </div>
+                                <div class="pricing-details">
+                                    <h2 class="name">Gordon Thomson</h2>
+                                    <h3>Corporate Relations</h3>
+                                    <p>
+                                        <a href="mailto:gordon.thomson@standardlife.com">Email</a><br />
+                                        0131 245 5456
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 col-sm-offset-2">
+                            <div class="table-left wow fadeInDown" data-wow-delay="0.4s">
+                                <div class="photo">
+                                    <img src="~/Content/Images/TeamPhotos/Trevor.png" alt="Martin Trenchard" />
+                                </div>
+                                <div class="pricing-details">
+                                    <h2 class="name">Trevor Power</h2>
+                                    <h3>Corporate Relations</h3>
+                                    <p>
+                                        <a href="mailto:trevor.power@standardlife.com">Email</a><br />
+                                        07595 465042
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="table-left wow fadeInDown" data-wow-delay="0.4s">
+                                <div class="photo">
+                                    <img src="~/Content/Images/TeamPhotos/Patrick.png" alt="Martin Trenchard" />
+                                </div>
+                                <div class="pricing-details">
+                                    <h2 class="name">Patrick Granger</h2>
+                                    <h3>Corporate Relations</h3>
+                                    <p>
+                                        <a href="mailto:patrick.granger@standardlife.com">Email</a><br />
+                                        0131 246 2970
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Subscribe Form -->
+    <div class="cta-sub no-color">
+        <div class="container">
+            <div class="cta-inner">
+                <h1 class="wow fadeInUp" data-wow-delay="0s">Love offers and discounts? Subscribe and save.</h1>
+                <p class="wow fadeInUp" data-wow-delay="0.2s">
+                    Don't worry, we won't need your credit card details. Just enter your <br class="hidden-xs"> email address and we'll take care of the rest.
+                </p>
+                <div class="form wow fadeInUp" data-wow-delay="0.3s">
+                    <form class="subscribe-form wow zoomIn" action="assets/php/subscribe.php" method="post" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
+                        <input class="mail" type="email" name="email" placeholder="Join the wait list" autocomplete="off"><input class="submit-button" type="submit" value="Subscribe">
+                    </form>
+                    <div class="success-message"></div>
+                    <div class="error-message"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-circle" src="~/Content/Images/Logos/Standard Life logo 2011.png" width="80" height="30" alt="Image" />
+                    <p>
+                        A technology startup based somewhere in the world. <br class="hidden-xs"> making the finest bluetooth
+                        speakers ever made. <br class="hidden-xs"> You'll know our location if you really love us.
+                    </p>
+
+                    <div class="footer-text">
+                        <p>
+                            Copyright © 2016 Advent Inc. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div id="contact" class="contact text-center">
+                        <i class="ion-ios-chatboxes-outline"></i>
+                        <h1>Need Help ?</h1>
+                        <p>
+                            Contact our 24/7 customer support if you have any <br class="hidden-xs"> questions. We'll help you out.
+                        </p>
+                        <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll To Top -->
+
+    <a id="back-top" class="back-to-top page-scroll" href="#main">
+        <i class="ion-ios-arrow-thin-up"></i>
+    </a>
+
+    <!-- Scroll To Top Ends-->
+
+</div><!-- Main Section -->

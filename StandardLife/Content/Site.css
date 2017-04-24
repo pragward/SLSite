@@ -1,24 +1,128 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+
+
+/* Nav styles */
+
+ul.nav {
+    font-size: 85%;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+/* Hero Section */
+
+.form .hero-section {
+    background-color: white;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+@media screen and (min-width: 1200px){
+    .form .hero-section {
+        background-image: url(../Content/Images/top-header-lg.jpg);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .form .hero-section {
+        background-image: url(../Content/Images/top-header-md.jpg);
+    }
+}
+
+/* Carousel styles */
+
+.percentage {
+    font-size: 11px;
+}
+
+#ten {
+    font-size: 100px;
+}
+
+#rating {
+    font-size: 10px;
+    left: 210px;
+    position: absolute;
+}
+
+#sixteen {
+    font-size: 70px;
+}
+
+#experience, #drawdown, #cust, #weare, #providers {
+    font-size: 10px;
+    text-align: center;
+    height: 0;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#experience {
+    padding-top: 10px;
+}
+
+#seventy {
+    font-size: 80px;
+}
+
+/* Pricing Section styles */
+
+.pricing-details p {
+    margin-bottom: 15px;
+}
+
+/* Contact Us styles */
+
+.name {
+    margin-bottom: 0;
+}
+
+.pricing-details h3 {
+    margin-bottom: 20px
+}
+
+.photo {
+    padding: 40px 40px 30px 40px;
+}
+
+.photo img {
+    width: 100px;
+    height: 100px;
 }
