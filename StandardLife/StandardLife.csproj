@@ -138,6 +138,7 @@
     <Content Include="Content\Images\Logos\pricing2.png" />
     <Content Include="Content\Images\Logos\pricing3.png" />
     <Content Include="Content\Images\Logos\Standard Life logo 2011.png" />
+    <Content Include="Content\Images\shutterstock_303161579.jpg" />
     <Content Include="Content\Images\TeamPhotos\Gordon.png" />
     <Content Include="Content\Images\TeamPhotos\Martin.png" />
     <Content Include="Content\Images\TeamPhotos\Patrick.png" />
@@ -161,6 +162,10 @@
     <Content Include="fonts\ionicons.eot" />
     <Content Include="fonts\ionicons.ttf" />
     <Content Include="fonts\ionicons.woff" />
+    <None Include="Properties\PublishProfiles\local.pubxml" />
+    <None Include="Properties\PublishProfiles\observereffect-sl - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\OE-sl.pubxml" />
+    <None Include="Properties\PublishProfiles\StandardLife20170424055627 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -190,6 +195,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\AlternateLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

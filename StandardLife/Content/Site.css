@@ -102,6 +102,10 @@ ul.nav {
     font-size: 80px;
 }
 
+.full {
+    font-size: 37px;
+}
+
 /* Pricing Section styles */
 
 .pricing-details p {
@@ -125,4 +129,60 @@ ul.nav {
 .photo img {
     width: 100px;
     height: 100px;
+}
+
+/* intro sub */
+.intro-sub {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+	padding: 100px 0 100px 0;
+}
+
+.intro-sub .sub-inner {
+	max-width: 500px;
+	float: left;
+}
+
+.intro-sub p {
+    color: #FFF;
+}
+
+/* Feature Sub */
+.sub-inner.wide {
+    max-width: 700px;
+}
+
+.sub-inner.wide h1 {
+    font-size: 35px;
+}
+
+/* Case Study sub */
+.case-study-sub  {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../Content/Images/shutterstock_303161579.jpg) no-repeat left;
+	padding: 0px 0 0px 0;
+}
+
+.case-study-sub .sub-inner {
+    float: right;
+}
+
+.case-study-sub h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #222222;
+    margin: 20px 0 10px 0;
+    letter-spacing: 1px;
+}
+
+.case-study-sub p {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 1.4;
+    margin: 10px 0 0 0;
+}
+
+@media screen and (min-width: 1200px){
+    .case-study-sub .case-wide {
+        max-width: 600px;
+    }
 }

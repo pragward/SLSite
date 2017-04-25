@@ -77,6 +77,15 @@ jQuery(function($) {
     pagination : false
     });
 
+  /* --------News Owl Carousel --------- */
+
+    $(".news").owlCarousel({
+        slideSpeed: 200,
+        items: 2,
+        singleItem: false,
+        autoPlay: true,
+        pagination: false
+    });
 
   /* ------ jQuery for Easing min -- */
 
