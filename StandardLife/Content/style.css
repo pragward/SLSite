@@ -1395,7 +1395,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	overflow-x: hidden;
 }
 
-.app-features h1, .news-section h1 {
+.app-features h1, .review-section h1 {
 	font-size: 34px;
 	font-weight: 600;
 	margin: 0 0 10px 0;

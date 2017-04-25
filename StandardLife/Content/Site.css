@@ -186,3 +186,8 @@ ul.nav {
         max-width: 600px;
     }
 }
+
+/* Review/News Section */
+.review-section {
+    padding: 80px 0 80px 0;
+}
