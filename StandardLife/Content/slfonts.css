@@ -1,0 +1,9 @@
+﻿@font-face {
+  font-family: 'Standard Life Regular';
+  src: url(Fonts/standardliferegular-webfont.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Standard Life Bold';
+  src: url(Fonts/standardlifebold-webfont.woff) format('woff');
+}
