@@ -177,3 +177,14 @@ $('.subscribe-form').submit(function(e) {
   });
 
 });
+
+// Footer Scroll
+
+$('#footerDetails').on('show.bs.collapse', function () {
+    var panel = $('#bottom');
+
+    $('html, body').animate({
+        scrollTop: panel.offset().top
+    }, 500);
+
+});
