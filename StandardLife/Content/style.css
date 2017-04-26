@@ -1348,7 +1348,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .feature-sub {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../Content/Images/Wheel.png) no-repeat right;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../Content/Images/Wheel.png) no-repeat right;
 	padding: 150px 0 150px 0;
 }
 
@@ -1528,6 +1528,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-weight: 300;
 	letter-spacing: 0;
 	line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 .review-text .ion {
@@ -1541,9 +1542,9 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
   
   font-size: 14px;
 	font-weight: 300;
-  padding: 20px 10px 20px 10px;
 	letter-spacing: 1px;
 	line-height: 1.5;
+    margin-bottom: 5px;
 }
 
 

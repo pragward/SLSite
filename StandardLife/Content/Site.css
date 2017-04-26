@@ -192,6 +192,10 @@ ul.nav {
     padding: 80px 0 80px 0;
 }
 
+.review-single p.bottom-paragraph {
+    margin-bottom: 35px;
+}
+
 /* Footer */
 .footer {
     background-color: #0A2F73;
