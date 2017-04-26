@@ -213,6 +213,18 @@ ul.nav {
     color: white;
 }
 
+.footer p {
+    color: white;
+}
+
 .footer a {
     color: white;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.feature-single {
+    min-height: 104px;
 }
