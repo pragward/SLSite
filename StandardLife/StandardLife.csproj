@@ -140,6 +140,10 @@
     <Content Include="Content\Images\Logos\pricing2.png" />
     <Content Include="Content\Images\Logos\pricing3.png" />
     <Content Include="Content\Images\Logos\Standard Life logo 2011.png" />
+    <Content Include="Content\Images\shutterstock_123866119_CROP-reszize.png" />
+    <Content Include="Content\Images\shutterstock_128908427_edit_B-3_B.png" />
+    <Content Include="Content\Images\shutterstock_128908427_edit_B_f_ex.png" />
+    <Content Include="Content\Images\shutterstock_128908427_edit_B_f_ex_Fpsd.jpg" />
     <Content Include="Content\Images\shutterstock_303161579.jpg" />
     <Content Include="Content\slfonts.css" />
     <Content Include="Content\Images\TeamPhotos\Gordon.png" />
@@ -194,7 +198,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

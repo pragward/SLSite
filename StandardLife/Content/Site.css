@@ -55,15 +55,15 @@ ul.nav {
 
 @media screen and (min-width: 1200px){
     .form .hero-section {
-        background-image: url(../Content/Images/top-header-lg.jpg);
+        background-image: url(../Content/Images/shutterstock_128908427_edit_B-3_B.png);
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
+/*@media screen and (min-width: 992px) and (max-width: 1200px){
     .form .hero-section {
         background-image: url(../Content/Images/top-header-md.jpg);
     }
-}
+}*/
 
 /* Carousel styles */
 
@@ -153,6 +153,14 @@ ul.nav {
 
 .sub-inner.wide h1 {
     font-size: 35px;
+}
+
+@media screen and (max-width: 992px){
+    .app-features .feature-single p {
+        max-width: 350px;
+        margin: 0 auto;
+        display: block;
+    }
 }
 
 /* Case Study sub */
